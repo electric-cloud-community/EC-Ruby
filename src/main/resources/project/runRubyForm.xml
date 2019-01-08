@@ -1,0 +1,40 @@
+<editor>
+    <help>/commander/pages/@PLUGIN_NAME@/@PLUGIN_KEY@_help?s=Administration&amp;ss=Plugins#runRuby</help> 
+    <formElement>
+		<type>entry</type>
+		<label>Ruby Location:</label>
+		<property>rubyLocation</property>
+		<value></value>
+        <required>0</required>
+		<documentation>The location of the ruby executable (e.g. C:\Ruby193\bin\ruby).</documentation>
+	</formElement>
+    <formElement>
+        <type>radio</type>
+        <label>Input Type:</label>
+        <property>inputType</property>
+        <required>1</required>
+        <documentation>Select the type of input that is going to be provided in the 'Command' field.</documentation>
+        <option><name> Command</name><value>command</value></option>
+        <option><name> File(Path)</name><value>file</value></option>
+    </formElement>
+    <formElement>
+        <type>textarea</type>
+        <label>Command:</label>
+        <property>rubyCommand</property>
+        <documentation>Provide the Ruby command to execute. Remember to use correct Ruby syntax when using a command.</documentation>
+        <required>1</required>
+    </formElement>
+    <formElement>
+        <type>textarea</type>
+        <label>Additional Commands:</label>
+        <property>additionalCommands</property>
+        <documentation>Provide additional commands to ruby.</documentation>
+        <required>0</required>
+    </formElement>
+    <formElement>
+            <type>textarea</type>
+            <label>Environment Variables:</label>
+            <property>envVariables</property>
+            <documentation>Set Environment variables (if required) using perl syntax.</documentation>
+    </formElement>
+</editor>
