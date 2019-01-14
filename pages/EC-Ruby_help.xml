@@ -163,7 +163,10 @@ the plugin omit?
     "screenshot" />
 
     <h1>Release Notes</h1>
-	
+    <h2>@PLUGIN_KEY@ 2.0.7</h2>
+    <ul>
+        <li>The plugin icon has been updated.</li>
+    </ul>
 	<h2>@PLUGIN_KEY@ 2.0.6</h2>
 		<ul>
 			<li>Renamed ElectricCommander to ElectricFlow.</li>
